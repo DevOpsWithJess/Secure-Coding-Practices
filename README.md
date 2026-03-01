@@ -8,7 +8,7 @@ This course focused on secure coding practices in C/C++ and how to integrate sec
 
 Throughout this course, I worked on developing and applying secure coding standards, performing static analysis, evaluating vulnerabilities, and implementing defensive programming techniques.
 
----
+
 
 ## What I Learned
 
@@ -25,7 +25,7 @@ I created a full secure development policy based on widely accepted security pri
 
 I learned how small coding decisions (like implicit type conversion or unchecked input) can introduce real security risks.
 
----
+
 
 ### Risk Assessment & Policy Development
 For Project One, I developed a secure development policy for a fictional company (Green Pace). This required:
@@ -38,7 +38,7 @@ For Project One, I developed a secure development policy for a fictional company
 
 This project helped me understand how security is documented, enforced, and governed in real organizations.
 
----
+
 
 ### Static Analysis & Automation
 I compared static analysis tools such as:
@@ -56,7 +56,7 @@ I learned how automated scanning tools can detect:
 
 More importantly, I learned how these tools fit into a DevSecOps pipeline, where security checks are automated during build and deployment.
 
----
+
 
 ### DevSecOps & Defense in Depth
 One of the biggest takeaways for me was understanding defense in depth. Security is not just one control, it’s layers:
@@ -71,7 +71,6 @@ One of the biggest takeaways for me was understanding defense in depth. Security
 
 I also learned how automation strengthens compliance by enforcing standards continuously instead of relying on manual review.
 
----
 
 ## Technical Skills Developed
 
@@ -83,7 +82,6 @@ I also learned how automation strengthens compliance by enforcing standards cont
 - Triple-A framework implementation
 - DevSecOps integration strategy
 
----
 
 ## Personal Reflection
 
@@ -91,7 +89,7 @@ I started this course thinking secure coding mostly meant “don’t write bad c
 
 This course strengthened my awareness of how security decisions impact real systems and real users. It also helped me think more critically about how to design systems that fail safely instead of failing dangerously.
 
----
+
 
 ## Included in This Portfolio
 
@@ -100,6 +98,6 @@ This course strengthened my awareness of how security decisions impact real syst
 - Coding Project Source Files  
 - Portfolio Reflection  
 
----
+
 
 Secure coding is no longer something I see as optional or secondary. It is foundational.
