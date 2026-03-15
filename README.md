@@ -1,103 +1,120 @@
-# CS 405 – Secure Coding Portfolio  
-Jessica Johnson  
-Southern New Hampshire University  
+# Secure Coding Practices
 
-## Course Overview
+Author: Jessica Johnson  
+Focus Areas: Secure Software Development, Vulnerability Analysis, and Defensive Programming  
 
-This course focused on secure coding practices in C/C++ and how to integrate security into the full software development lifecycle. Instead of treating security as something added at the end, we approached it as something that must be built in from the start.
+---
 
-Throughout this course, I worked on developing and applying secure coding standards, performing static analysis, evaluating vulnerabilities, and implementing defensive programming techniques.
+## Overview
 
+This repository contains projects and documentation focused on secure software development practices and integrating security throughout the software development lifecycle.
 
+The work in this repository explores how small coding decisions can introduce vulnerabilities and how developers can design systems that proactively defend against common security threats.
+
+Key topics explored include:
+
+• Secure coding standards  
+• Static code analysis  
+• Vulnerability identification and mitigation  
+• Defensive programming techniques  
+• Secure development lifecycle practices  
+
+---
+
+## Secure Development Concepts
+
+Throughout this work, I explored how common vulnerabilities can appear in real software systems and how developers can reduce risk through disciplined coding practices and structured security reviews.
+
+Examples of secure coding principles applied include:
+
+• Input validation and sanitization  
+• Preventing buffer overflows  
+• SQL injection prevention  
+• Integer overflow protection  
+• Proper exception handling  
+• Avoiding unsafe randomness  
+• Memory safety using RAII and smart pointers  
+
+These concepts reinforce the idea that security should be designed into software from the beginning rather than added later.
+
+---
+
+## Risk Assessment and Security Policy
+
+One project involved developing a secure coding policy for a fictional organization. The goal was to define standards that help developers prevent vulnerabilities during the design and development phases.
+
+The policy included guidelines for:
+
+• Input validation  
+• Error handling and logging  
+• Authentication and authorization practices  
+• Secure data storage  
+• Dependency and vulnerability management  
+
+This exercise demonstrated how organizations translate security principles into enforceable development policies.
+
+---
+
+## Static Code Analysis
+
+Static analysis tools were used to examine code for potential vulnerabilities before execution.
+
+The analysis focused on identifying:
+
+• Memory safety issues  
+• Improper input handling  
+• Potential injection vulnerabilities  
+• Risky library usage  
+• Logic flaws that could lead to exploitation  
+
+This process highlighted how automated tools can assist developers in detecting security issues early in the development cycle.
+
+---
+
+## Security Testing and Automation
+
+The repository also explores the use of automated testing and security scanning tools to strengthen application security.
+
+Examples include:
+
+• Automated testing using Google Test  
+• Dependency vulnerability scanning  
+• Secure build and development workflows  
+• Verification of secure coding standards  
+
+These techniques demonstrate how security can be integrated into development pipelines to detect vulnerabilities earlier and reduce risk.
+
+---
+
+## Skills Demonstrated
+
+Secure Software Development  
+Vulnerability Analysis  
+Static Code Analysis  
+Secure Coding Standards  
+Defensive Programming  
+Security Policy Development  
+Automated Security Testing  
+
+---
+
+## Repository Contents
+```
+Secure-Coding-Practices
+│
+├── Security Policy Documentation
+├── Static Code Analysis Results
+├── Secure Coding Assignments
+├── Secure Development Presentations
+└── README.md
+```
+
+Each file in this repository represents coursework and analysis related to secure software development and defensive programming techniques.
+
+---
 
 ## What I Learned
 
-### Secure Coding Standards
-I created a full secure development policy based on widely accepted security principles. This included:
+Working through these projects reinforced how critical security is to modern software development. Security vulnerabilities often arise from small implementation details, making it essential for developers to understand how attackers exploit weaknesses in software.
 
-- Input validation
-- Preventing buffer overflows
-- SQL injection prevention
-- Integer overflow protection
-- Proper exception handling
-- Avoiding unsafe randomness
-- Memory safety using RAII and smart pointers
-
-I learned how small coding decisions (like implicit type conversion or unchecked input) can introduce real security risks.
-
-
-
-### Risk Assessment & Policy Development
-For Project One, I developed a secure development policy for a fictional company (Green Pace). This required:
-
-- Defining 10 secure coding standards
-- Performing risk assessments (severity, likelihood, remediation cost, priority)
-- Mapping standards to security principles
-- Creating encryption policies (at rest, in flight, in use)
-- Implementing the Triple-A framework (Authentication, Authorization, Accounting)
-
-This project helped me understand how security is documented, enforced, and governed in real organizations.
-
-
-
-### Static Analysis & Automation
-I compared static analysis tools such as:
-
-- SonarQube
-- CppCheck
-- Visual Studio warnings
-
-I learned how automated scanning tools can detect:
-- Uninitialized variables
-- Unsafe type conversions
-- Buffer overflows
-- Memory leaks
-- Improper exception handling
-
-More importantly, I learned how these tools fit into a DevSecOps pipeline, where security checks are automated during build and deployment.
-
-
-
-### DevSecOps & Defense in Depth
-One of the biggest takeaways for me was understanding defense in depth. Security is not just one control, it’s layers:
-
-- Input validation
-- Parameterized queries
-- Compiler warnings
-- Static analysis
-- Logging
-- Encryption
-- Access control
-
-I also learned how automation strengthens compliance by enforcing standards continuously instead of relying on manual review.
-
-
-## Technical Skills Developed
-
-- C++ secure coding practices
-- Static code analysis interpretation
-- Secure policy writing
-- Risk assessment modeling
-- Encryption standards (AES-256, TLS)
-- Triple-A framework implementation
-- DevSecOps integration strategy
-
-
-## Personal Reflection
-
-I started this course thinking secure coding mostly meant “don’t write bad code.” I’m leaving it understanding that secure software requires structure, policy, automation, and layered protection.
-
-This course strengthened my awareness of how security decisions impact real systems and real users. It also helped me think more critically about how to design systems that fail safely instead of failing dangerously.
-
-
-
-## Included in This Portfolio
-
-- Project One – Secure Development Policy  
-- Project Two – Presentation on Secure Coding  
-- Coding Project Source Files  
-- Portfolio Reflection  
-
-
-
-Secure coding is no longer something I see as optional or secondary. It is foundational.
+These exercises helped strengthen my ability to evaluate code from a security perspective and design systems that are more resilient against common threats.
